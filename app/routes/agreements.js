@@ -46,5 +46,4 @@ router.post('/searchAgreementsFilter',                valSearchAgreementsFilter,
 router.post('/getSavingsBackendInfo',                 valGetSavingsBackendInfo,                  getSavingsBackendInfo)
                                                       
 
-
 module.exports = router
