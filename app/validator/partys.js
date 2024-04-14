@@ -19,6 +19,8 @@ const valGetEmployee = [ // RUT, advisorCode
     }
 ]
 
+// Probando commit
+
 const valGetOrganization = [ // RUT
     check('RUT').exists().not().isEmpty(),
     (req, res, next ) => {
@@ -135,7 +137,6 @@ const valUpdatePersonContactInfo = [
         validateResult(req, res, next)
     }
 ]
-
 module.exports = { valDummy, valGetEmployee, valGetOrganization, valGetParty, valGetPartyContactInfo, valGetPartyCustomerSegment, valGetPerson,
                    valSearchCustomerRequirements, valUpdatePartyContactInfo, valUpdatePartyContactInfoOnlyAdresses, valUpdatePartyContactInfoOnlyEmails,
                    valUpdatePartyContactInfoOnlyPhones, valUpdatePersonContactInfo
