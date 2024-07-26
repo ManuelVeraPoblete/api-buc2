@@ -12,6 +12,7 @@ const { valSearchCustomerRequirements, valUpdatePartyContactInfo } = require('..
 const { valUpdatePartyContactInfoOnlyAdresses, valUpdatePartyContactInfoOnlyEmails } = require('../validator/partys')
 const { valUpdatePartyContactInfoOnlyPhones, valUpdatePersonContactInfo } = require('../validator/partys')
 
+
 router.post('/dummy',                              valDummy,                              dummy)
 router.post('/getEmployee',                        valGetEmployee,                        getEmployee)
 router.post('/getOrganization',                    valGetOrganization,                    getOrganization)
